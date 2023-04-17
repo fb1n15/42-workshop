@@ -12,6 +12,8 @@ Get your code and tests side-by-side without resorting to tabs.
 
 - "TDD Mode"
 
+- Code on the left, test on the right, run test window on the bottom (TDD layout)
+
 - Jump back and forth
 
     - Recent Files, Navigate to Symbol, or...

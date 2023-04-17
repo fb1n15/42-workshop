@@ -23,9 +23,9 @@ Repo: https://github.com/pauleveritt/42-workshop
 Playlist: https://www.jetbrains.com/pycharm/guide/playlists/42/
 """
 
-import os
-from time import time
 from sys import version
+from time import time
+
 from fortytwo import App, Greeter
 
 

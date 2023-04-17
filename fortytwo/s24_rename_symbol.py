@@ -29,8 +29,8 @@ from fortytwo.models import Greeter
 def main():
     site = App()
     with site as container:
-        greeter = container.get(Greeter)
-        greeting = greeter('Larry')
+        welcomer = container.get(Greeter)
+        greeting = welcomer('Larry')
         return greeting
 
 

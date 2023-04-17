@@ -24,7 +24,7 @@ def main():
     site = App()
     with site as container:
         greeter = container.get(Greeter)
-        customer = choices()  # Not sure the parameters here
+        customer = choices(customers, None)  # Not sure the parameters here
         greeting = greeter(customer)
         return greeting
 

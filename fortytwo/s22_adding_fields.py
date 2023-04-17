@@ -17,8 +17,9 @@ from fortytwo import App, Greeter
 
 class Customer:
     # Pass in ``name``, store as ``self.first_name``
-    def __init__(self):
-        pass
+    def __init__(self, name, age):
+        self.client_age = age
+        self.first_name = name
 
 
 def main():

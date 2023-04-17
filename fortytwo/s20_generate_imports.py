@@ -17,6 +17,7 @@ Avoid interruption by letting PyCharm generate your imports as you type.
 Repo: https://github.com/pauleveritt/42-workshop
 Playlist: https://www.jetbrains.com/pycharm/guide/playlists/42/
 """
+from random import choice
 
 from fortytwo import App, Greeter
 
@@ -27,7 +28,8 @@ def main():
     site = App()
     with site as container:
         greeter = container.get(Greeter)
-        customer = 'Larry'  # Change to random customer
+        customer = choice(customers)  # Change to random customer
+        customer_B = choice(customers)
         greeting = greeter(customer)
         return greeting
 

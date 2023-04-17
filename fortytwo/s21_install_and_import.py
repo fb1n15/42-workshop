@@ -14,6 +14,8 @@ Playlist: https://www.jetbrains.com/pycharm/guide/playlists/42/
 
 from random import choice
 
+import maya as maya
+
 from fortytwo import App, Greeter
 
 customers = ('Larry', 'Alice', 'Sam')
