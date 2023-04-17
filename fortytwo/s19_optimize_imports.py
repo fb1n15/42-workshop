@@ -10,7 +10,7 @@ Automate the organizing and cleaning up of your Python imports with Optimize Imp
 
     - I want multiple per line
 
-- Optimize Imports (``Ctrl-Alt-O`` Win/Linux/macOS)
+- Optimize Imports (``Command-Alt-O`` macOS)
 
 - Undo/Redo
 
